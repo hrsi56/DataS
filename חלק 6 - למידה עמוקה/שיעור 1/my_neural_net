@@ -1,0 +1,42 @@
+digraph {
+	rankdir=LR
+	L0_N0 [label=x1 fixedsize=true shape=circle width=0.6]
+	L0_N1 [label=x2 fixedsize=true shape=circle width=0.6]
+	L1_N0 [label="" fixedsize=true shape=circle width=0.6]
+	L1_N1 [label="" fixedsize=true shape=circle width=0.6]
+	L1_N2 [label="" fixedsize=true shape=circle width=0.6]
+	L1_N3 [label="" fixedsize=true shape=circle width=0.6]
+	L1_N4 [label="" fixedsize=true shape=circle width=0.6]
+	L2_N0 [label="" fixedsize=true shape=circle width=0.6]
+	L2_N1 [label="" fixedsize=true shape=circle width=0.6]
+	L2_N2 [label="" fixedsize=true shape=circle width=0.6]
+	L3_N0 [label=y1 fixedsize=true shape=circle width=0.6]
+	L0_N0 -> L1_N0
+	L0_N0 -> L1_N1
+	L0_N0 -> L1_N2
+	L0_N0 -> L1_N3
+	L0_N0 -> L1_N4
+	L0_N1 -> L1_N0
+	L0_N1 -> L1_N1
+	L0_N1 -> L1_N2
+	L0_N1 -> L1_N3
+	L0_N1 -> L1_N4
+	L1_N0 -> L2_N0
+	L1_N0 -> L2_N1
+	L1_N0 -> L2_N2
+	L1_N1 -> L2_N0
+	L1_N1 -> L2_N1
+	L1_N1 -> L2_N2
+	L1_N2 -> L2_N0
+	L1_N2 -> L2_N1
+	L1_N2 -> L2_N2
+	L1_N3 -> L2_N0
+	L1_N3 -> L2_N1
+	L1_N3 -> L2_N2
+	L1_N4 -> L2_N0
+	L1_N4 -> L2_N1
+	L1_N4 -> L2_N2
+	L2_N0 -> L3_N0
+	L2_N1 -> L3_N0
+	L2_N2 -> L3_N0
+}

@@ -1,4 +1,4 @@
-# Data Science & Machine Learning Portfolio
+# Data Science & Machine Learning Notes
 
 Welcome to my comprehensive data science repository. This project documents my journey from Python fundamentals to advanced Deep Learning architectures, including theoretical exercises and hands-on projects.
 
